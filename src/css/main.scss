@@ -30,14 +30,14 @@ a {
 
 .content {
   text-align: center;
-  width: 960px;
+  max-width: 960px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 #giveCat {
-  width: 500px;
+  max-width: 600px;
   height: 500px;
   background-color: rgba(50, 50, 50, 1);
 }
@@ -61,3 +61,6 @@ a {
     background-color: darken($primaryColor, 5%);
   }
 }
+
+//Mobile
+@import "mobile.scss";

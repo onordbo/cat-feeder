@@ -1,0 +1,32 @@
+@media only screen and (max-device-width: 480px) {
+
+  h1 {
+    font-size: 24px;
+  }
+
+  #giveCat {
+    max-width: 300px;
+    height: 300px;
+  }
+
+  .btn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 140px;
+    height: 60px;
+    padding: 5px 5px 5px 5px;
+    background-color: $primaryColor;
+    border-radius: 5px;
+    p, a {
+      color: $white;
+      text-align: center;
+      font-family: $fontStack;
+      font-size: 16px;
+    }
+    &:hover{
+      background-color: darken($primaryColor, 5%);
+    }
+  }
+
+}
