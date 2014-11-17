@@ -1,0 +1,57 @@
+//Custom font import
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+
+//Import boilerplate stuff
+@import "boiler.scss";
+@import "colors.scss";
+
+//Variables
+$fontStack: 'Helvetica', Arial, sans-serif;
+$primaryColor: darken($aqua, 50%);
+
+//CSS
+body {
+  background-color: $silver;
+}
+
+h1 {
+  font-family: 'Open Sans', $fontStack;
+  color: $primaryColor;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  text-align: center;
+  width: 960px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#giveCat {
+  width: 500px;
+  height: 500px;
+  background-color: rgba(50, 50, 50, 1);
+}
+
+.btn {
+  display: block;
+  margin-top: 20px;
+  width: 200px;
+  height: 70px;
+  padding: 5px 5px 5px 5px;
+  background-color: $primaryColor;
+  border-radius: 5px;
+  p, a {
+    color: $white;
+    text-align: center;
+    font-family: $fontStack;
+    font-size: 18px;
+  }
+  &:hover{
+    background-color: darken($primaryColor, 5%);
+  }
+}
