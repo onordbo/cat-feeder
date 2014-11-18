@@ -57,8 +57,11 @@ a {
     font-family: $fontStack;
     font-size: 18px;
   }
-  &:hover{
+  &:hover {
     background-color: darken($primaryColor, 5%);
+  }
+  &:active {
+    background-color: $primaryColor;
   }
 }
 
