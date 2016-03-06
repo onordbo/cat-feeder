@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  font-family: "Open Sans", "Helvetica", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   color: #005b7f;
 }
 
@@ -46,21 +46,25 @@ a {
   margin-top: 20px;
   width: 200px;
   height: 70px;
-  padding: 5px 5px 5px 5px;
+  padding: 7px 5px 5px 5px;
   background-color: #005b7f;
   border-radius: 5px;
+  box-shadow: 0px 5px 0px #00374c;
 }
 .btn p, .btn a {
   color: #fff;
   text-align: center;
-  font-family: "Helvetica", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 18px;
 }
 .btn:hover {
   background-color: #004966;
 }
 .btn:active {
-  background-color: #005b7f;
+  background-color: #006e99;
+  box-shadow: 0px 0px 0px #00374c;
+  position: relative;
+  top: 5px;
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -86,7 +90,7 @@ a {
   .btn p, .btn a {
     color: #fff;
     text-align: center;
-    font-family: "Helvetica", Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 16px;
   }
   .btn:hover {
